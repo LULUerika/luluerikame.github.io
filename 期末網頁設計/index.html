@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   
+   
+    
+</head>
+<body>
+<div class="wrap">
+
+<!--開頭長框設定 -->
+    <header>
+        <h1 class="logo">
+             
+        </h1>
+
+        <nav class="meun">
+        <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#news">news</a></li>
+            <li><a href="#prodct">prodct</a></li>
+            <li><a href="#service">service</a></li>  
+        </ul>
+    </header>
+</div>
+<!--開頭長框設定尾 -->
+
+
+<!--幻燈片設定 --> 
+<script>
+      $(document).ready(function(){
+        $(".slider").bxSlider({
+        auto: true,
+        autoControls: false,
+        stopAutoOnClick: true,
+        pager: true,
+        slideWidth: 1280
+        });
+      });
+</script>
+<div class="slider">
+  <div class="catone"><img src="photo/07.png" alt=""></div>
+  <div class="cattwo"><img src="photo/05.png" alt=""></div>
+</div>
+<!--幻燈片設定尾 --> 
+
+<!--四格設定 -->   
+<section>
+
+  <div class="catthree">
+      <img src="photo/02.png" alt="">
+      <h3>Leopard Cat</h3>
+  </div>
+  <div class="catthree">
+      <img src="photo/01.png" alt="">
+      <h3>Siamese Cat</h3>
+  </div>
+  <div class="catthree">
+      <img src="photo/03.png" alt="">
+      <h3>Russian Blue</h3>
+  </div>
+  <div class="catthree">
+      <img src="photo/04.png" alt="">
+      <h3>British Shorthair</h3>
+  </div>
+</section>
+
+
+<!--實體店設定 -->
+<div class="physical"></div>
+
+<!--三條設定 -->
+<div class="Handmade"></div>
+<div class="fresh"></div>
+<div class="Gift"></div>
+<!--尾設定 -->
+
+<div class="Tail"></div>
+
+</body>
+</html>

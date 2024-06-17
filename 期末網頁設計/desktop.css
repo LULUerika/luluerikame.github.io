@@ -1,0 +1,203 @@
+@media screen and (min-width: 850px){
+body,h1,h2{margin: 0%;}
+body{
+    font-family: sans-serif;
+    color: rgb(94, 92, 20);
+    width: 1280px;
+    margin: 0 auto;
+
+}
+.wrap{
+    
+    width: 1280px;
+    height:150px ;
+    margin: 0 auto;
+}
+
+/*開頭長框設定*/
+header{
+    background-color: #131313;
+    display: flex;
+    padding-inline: 50px;
+    position: sticky;
+    top: 10px;
+    box-shadow: 0 0 5px 0 rgb(65, 65, 65) ;
+    background-image: url(photo/990.png);
+
+}
+
+
+header a{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    display: block;
+    display: flex;
+    font-size: 70px;
+}
+
+
+header h1{
+    margin-right: auto;
+}
+
+.meun ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.meun a{
+    font-size: 30px;
+    padding: 6px 28px;
+    background-color: #d0d0d0;
+    border-radius: 50px;
+}
+
+.meun a:hover{
+    color: rgb(27, 27, 27);
+    background-color: rgb(231, 232, 186);
+}
+
+/*開頭長框設定尾端*/
+
+.catone{
+    width: 1280px;
+    height:500px ;
+}
+
+/*四格設定*/
+section {
+    width: 728px;
+    height:300px ;
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+.catthree {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    /* 隱藏超出範圍的內容 */
+    cursor: pointer;
+    
+    
+}
+div.catthree img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: scale 0.2s;  
+}
+div.catthree:hover img {
+    scale: 1.3;
+    filter: blur(3px); 
+}
+div.catthree h3 {
+    color: bisque;
+    margin: 0;
+    font-size: 1.6rem;
+    width: 300px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    transition: transform 0.2s; 
+    text-shadow: 0 0 3px black;
+    background: 
+    linear-gradient(
+        -180deg,
+        rgba(0,0,0,0) 0%,
+        rgba(0,0,0,0.7) 100%
+    );
+}
+div:hover h3 {
+    transform: translateY(-70px);
+    /*向上位移60個像素*/
+}
+
+/* CSS Filter Effect */
+main {
+    width: 600px;
+    height: 300px;
+    background-image: url(image/mink-mingle-LGNxQzYmeUk-unsplash.jpg);
+    position: relative;
+}
+h1 {
+    color: white;
+    text-align: center;
+    width: 450px;
+    line-height: 160px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter:blur(7px) ;
+}
+/*四格設定*/
+
+
+
+
+
+/*實體店設定*/
+.physical{
+    
+    width: 1280px;
+    height:730px ;
+    background-image: url(photo/06.png);
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 16px;
+}
+
+/*三條設定*/
+
+.Handmade{
+    width: 1280px;
+    height:204px ;
+    background-color: #2E2E2E;
+    background-image: url(photo/002.png);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    
+
+}
+.fresh{
+    width: 1280px;
+    height:204px ;
+    background-color: #2E2E2E;
+    background-image: url(photo/001.png);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+.Gift{
+    width: 1280px;
+    height:204px ;
+    background-color: #2E2E2E;
+    background-image: url(photo/003.png);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 16px;
+}
+
+
+/*尾設定*/
+.Tail{
+    height:224px ;
+    width: 1280px;
+    margin-bottom: 40px;
+    background-image: url(photo/99.png);
+    margin: 0 auto;
+}
+
+
+/*幻燈片設定*/
+
+.bx-wrapper{
+    margin: 0 auto;
+}
+}
